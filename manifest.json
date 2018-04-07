@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "imoocHelper",
+  "version": "1.0",
+  "description": "慕课网助手",
+  "icons": {
+    "16": "images/study16.png",
+    "48": "images/study48.png",
+    "128": "images/study128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.imooc.com/*"
+      ],
+      "css": [
+        "css/imoocHelper.css"
+      ],
+      "js": [
+        "js/jquery.min.js",
+        "js/imoocHelper.js"
+      ]
+    }
+  ]
+}

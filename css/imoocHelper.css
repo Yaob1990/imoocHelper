@@ -1,0 +1,10 @@
+.vjs-control-bar {
+    z-index: 1000 !important;
+}
+
+#video-container-mocoplayer-hls-video_html5_api {
+    z-index: 1000 !important;
+}
+#next-mask{
+    z-index: 100000001!important;
+}
